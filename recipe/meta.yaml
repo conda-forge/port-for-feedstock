@@ -1,5 +1,5 @@
-{% set version = "0.3.1" %}
-{% set sha256 = "b16a84bb29c2954db44c29be38b17c659c9c27e33918dec16b90d375cc596f1c" %}
+{% set version = "0.4" %}
+{% set sha256 = "47b5cb48f8e036497cd73b96de305cecb4070e9ecbc908724afcbd2224edccde" %}
 
 package:
   name: port-for
@@ -11,7 +11,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 1
+  number: 0
   script: python setup.py install
 
 requirements:
