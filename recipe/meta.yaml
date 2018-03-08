@@ -1,22 +1,24 @@
-{% set version = "0.3.1" %}
-{% set sha256 = "b16a84bb29c2954db44c29be38b17c659c9c27e33918dec16b90d375cc596f1c" %}
+{% set version = "0.4" %}
+{% set sha256 = "47b5cb48f8e036497cd73b96de305cecb4070e9ecbc908724afcbd2224edccde" %}
+{% set pkg_name = "port-for" %}
 
 package:
-  name: port-for
+  name: {{ pkg_name }}
   version: {{ version }}
 
 source:
   fn: port_for-{{ version }}.tar.gz
-  url: https://pypi.io/packages/source/p/port-for/port-for-{{ version }}.tar.gz
+  url: https://pypi.io/packages/source/{{ pkg_name[0] }}/{{ pkg_name }}/{{ pkg_name }}-{{ version }}.tar.gz
   sha256: {{ sha256 }}
 
 build:
-  number: 1
-  script: python setup.py install
+  number: 0
+  script: python setup.py install --single-version-externally-managed --record record.txt
 
 requirements:
   build:
     - python
+    - setuptools
   run:
     - python
 
