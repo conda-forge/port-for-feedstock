@@ -17,14 +17,15 @@ return the same port number.
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/port-for-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/port-for-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/port-for-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/port-for-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/port-for-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/port-for-feedstock/branch/master)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/port-for-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/port-for-feedstock)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/port-for/badges/version.svg)](https://anaconda.org/conda-forge/port-for)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/port-for/badges/downloads.svg)](https://anaconda.org/conda-forge/port-for)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-port--for-green.svg)](https://anaconda.org/conda-forge/port-for) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/port-for.svg)](https://anaconda.org/conda-forge/port-for) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/port-for.svg)](https://anaconda.org/conda-forge/port-for) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/port-for.svg)](https://anaconda.org/conda-forge/port-for) |
 
 Installing port-for
 ===================
