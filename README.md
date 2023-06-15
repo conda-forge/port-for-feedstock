@@ -1,11 +1,11 @@
-About port-for
-==============
+About port-for-feedstock
+========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/port-for-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/kmike/port-for/
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/port-for-feedstock/blob/main/LICENSE.txt)
 
 Summary: port-for is a command-line utility and a python library that helps with local TCP ports managment
 
