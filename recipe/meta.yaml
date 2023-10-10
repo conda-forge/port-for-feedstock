@@ -1,5 +1,5 @@
-{% set version = "0.7.1" %}
-{% set sha256 = "e0f3b8d7ec8bdc388c14d88bdbab8d6441c8081ed2bdec7847b38ca6d1563f23" %}
+{% set version = "0.7.2" %}
+{% set sha256 = "074f29335130578aa42fef3726985e57d01c15189e509633a8a1b0b7f9226349" %}
 {% set pkg_name = "port-for" %}
 
 package:
