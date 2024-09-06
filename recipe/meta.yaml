@@ -18,6 +18,8 @@ requirements:
   host:
     - pip
     - python >=3.8
+    - setuptools >=61.0.0
+    - wheel
   run:
     - python >=3.8
 
