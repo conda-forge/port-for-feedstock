@@ -1,15 +1,13 @@
-{% set version = "0.7.2" %}
-{% set sha256 = "074f29335130578aa42fef3726985e57d01c15189e509633a8a1b0b7f9226349" %}
-{% set pkg_name = "port-for" %}
+{% set name = "port-for" %}
+{% set version = "0.7.3" %}
 
 package:
-  name: {{ pkg_name }}
+  name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  fn: port_for-{{ version }}.tar.gz
-  url: https://pypi.io/packages/source/{{ pkg_name[0] }}/{{ pkg_name }}/{{ pkg_name }}-{{ version }}.tar.gz
-  sha256: {{ sha256 }}
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/port_for-{{ version }}.tar.gz
+  sha256: 2d597e5854a1b323b17eba8ae0630784c779857abde5e22444c88d233a60f953
 
 build:
   noarch: python
@@ -20,7 +18,8 @@ requirements:
   host:
     - pip
     - python >=3.8
-    - setuptools
+    - setuptools >=61.0.0
+    - wheel
   run:
     - python >=3.8
 
@@ -44,3 +43,4 @@ about:
 extra:
   recipe-maintainers:
     - chohner
+    - mariusvniekerk
