@@ -1,5 +1,5 @@
 {% set name = "port-for" %}
-{% set version = "0.7.3" %}
+{% set version = "0.7.4" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/port_for-{{ version }}.tar.gz
-  sha256: 2d597e5854a1b323b17eba8ae0630784c779857abde5e22444c88d233a60f953
+  sha256: fc7713e7b22f89442f335ce12536653656e8f35146739eccaeff43d28436028d
 
 build:
   noarch: python
