@@ -1,13 +1,13 @@
 {% set name = "port-for" %}
-{% set version = "1.0.0" %}
+{% set version = "1.1.1" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/port_for-{{ version }}.tar.gz
-  sha256: 404d161b1b2c82e2f6b31d8646396b4847d02bf5ee10068c92b7263657a14582
+  url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/port_for-{{ version }}.tar.gz
+  sha256: 59fce22a7bf18b88744d034c6cb5ed11ef8a8c8ba003e03bece5f4a0e565abce
 
 build:
   noarch: python
